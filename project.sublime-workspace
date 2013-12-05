@@ -1,0 +1,195 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prin",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "-- phpMyAdmin SQL Dump\n-- version 3.5.2.2\n-- http://www.phpmyadmin.net\n--\n-- 主机: 127.0.0.1\n-- 生成日期: 2013 年 08 月 28 日 12:10\n-- 服务器版本: 5.5.27\n-- PHP 版本: 5.4.7\n\nSET SQL_MODE=\"NO_AUTO_VALUE_ON_ZERO\";\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8 */;\n\n--\n-- 数据库: `education`\n--\n\n-- --------------------------------------------------------\n\n--\n-- 表的结构 `surveys`\n--\n\nCREATE TABLE IF NOT EXISTS `surveys` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `name` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,\n  `seat` int(11) NOT NULL,\n  `sug_course` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,\n  `sug_teacher` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=51 ;\n\n--\n-- 转存表中的数据 `surveys`\n--\n\nINSERT INTO `surveys` (`id`, `name`, `seat`, `sug_course`, `sug_teacher`) VALUES\n(3, '123', 13, '3213', '321'),\n(4, '林嘉成', 13, '', ''),\n(5, '王沥涓', 14, 'IMOVIE', ''),\n(6, '史恒璟', 31, '上课时间越少越好', '上课时间越少越好'),\n(7, '谭智铭', 22, '多留时间给我们练习。', '很满意'),\n(8, '王柏力', 21, '多留点时间给我们自己玩。', '没有，只求不封杀我们。'),\n(9, '冯栗莎', 39, '很好', '不错'),\n(10, '王淏', 35, '希望您能够让我们劳逸结合。\\r\\n\\r\\n\\r\\n\\r\\n', '很满意、'),\n(11, '彭雅欣', 37, '学一些网页制作', '幽默一点'),\n(12, '陈秋妤', 26, '很好', '多点给我自己玩耍的时间'),\n(13, '王子宸', 40, '很好', 'OK'),\n(14, '曾杨', 48, '和47号一样，也很满意', '和我们好好相处，我们也要好好努力'),\n(15, '董泽鑫', 25, '多交点音频的', '多有点自由的时间'),\n(16, '张雪阳', 11, '希望交点关于制作flash', '和同学做朋友 '),\n(17, '陈艺文', 0, '多教点简单的,太难得学不会', '可以试着放同学感兴趣的,增加感情'),\n(18, '赵缘媛', 27, '让我们有点时间玩', '别总上太多课吸收不了'),\n(19, '宋冰依诺', 28, '多点自由的时间', '教有意思的东西'),\n(20, '杨洋 ', 47, '很满意 ', '继续加油 很满意 希望和老师好好相处'),\n(21, '陈丹妮', 34, '望能教有趣的东西', ''),\n(22, '朱沛桦', 32, '多上点关于美剧的内容', ''),\n(23, '李泳江', 23, '无', '无'),\n(24, '陈文婧婷', 17, '作业少一点', '作业少一点'),\n(25, '姚心恬', 24, '幽默一点，简单明了一点。还有，下次视频能不能不要那么卡，好伤不起。', '留一点时间给大家自己玩一下更好了。毕竟大家在家好难得碰电脑诶。。。'),\n(26, '蒋芫君', 59, '坐后面我看不到', '话少一点'),\n(27, '严艺钦', 38, '学习一些视频制作', '上课速度快一点 多留点时间'),\n(28, '李自敏', 50, '多教做视频', '满意'),\n(29, '石婉婷', 49, '可以加一点动画编程', '很满意'),\n(30, '何荏毅坤', 0, '充满创意', '课程不要太死板'),\n(31, '唐方奇', 0, '多给我们玩的时间', '再活泼点'),\n(32, '刘雅贝铃', 20, '轻松点 内容丰富有趣 不会太乏味 效率高', '建议你不要经常玩电脑 辐射大 对皮肤不好！'),\n(33, '张娅宏', 41, '枯燥变有趣', '再幽默一点'),\n(34, '周子楠', 36, '希望老师能多教我们一些实用的东西', '希望好好相处 上课有个愉快的氛围'),\n(35, '李翀宇', 42, '上课有趣一点', '再幽默一点'),\n(36, '郭佳妤', 3, '不要太复杂，', '讲重点。'),\n(37, '周佳佳', 33, '轻松 有趣 丰富 有效率 实际 ', '你能留长发 变帅 然后自己看着办！'),\n(38, '武澜', 18, '放慢进度，享受课堂', '上课时间少一点，自由活动多一点！'),\n(39, '周道隆', 7, '多教技术', '无'),\n(40, '李冰盈', 16, '作业布置少点 ', '课堂轻松 幽默 尽量让我们多玩电脑'),\n(41, '金歌', 30, '丰富一点，貌似会学到很多很神奇的东西', '可不可以稍微讲的简单一点~电脑可能拥有我的信息，但我对电脑一无所知。还有，不要理29的建议！'),\n(42, '王顺丽', 12, '没', '没'),\n(43, '李文玲', 6, '课程进度不要太快。', ''),\n(44, '朱新琦', 8, '不要太难', '很好'),\n(45, '张传珍', 5, '不要太难', ''),\n(46, '王毓明珠', 29, '不要太过于紧凑，考虑大部分妹子的等级。还是丰富些会接受的更快吧~', '课堂气氛活跃些吧~妹子们很喜欢你的~虚心接受来自妹子们善意的调戏，30号什么的无视掉！'),\n(47, '雷媛婷', 43, '求多教视频和混音和PS这方面的。有时间就教教v家的程序怎么用吧=3=（私底下教什么的）', '在做完课堂上该做的作业之后，希望能再多教一些课外的~~~~'),\n(48, '郭佳妤', 3, '不要太复杂', '讲重点'),\n(49, '赵彧婕', 44, '求多教一些关于PS（较难）和音频（电子音之类）的内容', '小龙老师，希望能够在做完课堂上的作业后，能再多教大家一些课外的内容~求教PS啊！！！'),\n(50, '李阳星月', 4, '自由活动时间多一点，讲解清楚点。', '生动活泼，温柔体贴，热情奔放，乐于助人，如莲花般清纯，如红日般宏伟。');\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n",
+			"settings":
+			{
+				"buffer_size": 3455,
+				"line_ending": "Windows",
+				"name": "-- phpMyAdmin SQL Dump"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/xampp/htdocs/cp/app/Controller/AppController.php",
+		"/D/xampp/htdocs/cp/app/Controller/SurveysController.php",
+		"/C/Users/Administrator/Downloads/surveys.sql",
+		"/D/xampp/htdocs/cp/app/View/Layouts/survey.ctp",
+		"/D/xampp/htdocs/cp/app/View/Layouts/default.ctp",
+		"/D/xampp/htdocs/cp/app/Model/SurveysModel.php",
+		"/D/xampp/htdocs/cp/app/View/Surveys/result.ctp",
+		"/D/xampp/htdocs/cp/app/View/Surveys/index.ctp",
+		"/D/xampp/htdocs/cp/app/View/Layouts/error.ctp",
+		"/D/xampp/htdocs/cp/lib/Cake/Console/Templates/skel/webroot/css/cake.generic.css",
+		"/R/google/C/天梯/1_min_max.cpp",
+		"/R/google/C/天梯/1_min_max.c",
+		"/D/xampp/htdocs/index.php",
+		"/D/Program Files/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text/Data/Packages/User/JSON.sublime-settings",
+		"/D/Program Files/fences/!)使用必读.txt",
+		"/D/Program Files/Sublime Text/Data/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"message",
+			"');\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 3455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"auto_name": "-- phpMyAdmin SQL Dump",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 700.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

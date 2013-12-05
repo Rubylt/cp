@@ -1,0 +1,16 @@
+#work td{
+	text-align:center;
+	height:20px;
+}
+#work td.name{
+	font-size:14px;
+}
+
+#work td.computer{
+	width:60px;
+}
+
+#work td.road{
+	background-color:#ddd;
+	height:20px;
+}
